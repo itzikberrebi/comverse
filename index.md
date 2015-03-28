@@ -20,12 +20,12 @@ while you stay focused on customers & opportunities.
 
 Comverse Managed Services:
  * Managed Operations 
- * Managed Transformation 
+ * Managed Transformation
  * SaaS Solutions
 
- ** LEARN MORE **
+ **LEARN MORE**
 
 -------------------
 
- ## YOU CAN BE DOING MORE... ##
+ ### YOU CAN BE DOING MORE... ###
 
