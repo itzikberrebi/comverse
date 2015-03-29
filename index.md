@@ -70,8 +70,8 @@ See all of our solutions
 ---
 
 1. KEY SOLUTIONS
---1.monetizing dar
---2.over the top (ott)
+--1. monetizing dar
+--2. over the top (ott)
 --3.machine to machine (m2m)
 --4.colud computing
 --5.managed services
