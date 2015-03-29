@@ -61,11 +61,11 @@ See all of our solutions
 
 ##success stories
 
--- "we have very good and very warm relations with Comverse. we always achievet..."
+  "we have very good and very warm relations with Comverse. we always achievet..."
 
--- comverse had demonstrted that they are partners, not just supplies, because they understand our needs, out situations together we are...
+  comverse had demonstrted that they are partners, not just supplies, because they understand our needs, out situations together we are...
 
--- "converse has been able to fully deliver what we want and we have peers..."
+  "converse has been able to fully deliver what we want and we have peers..."
 
 ---
 
