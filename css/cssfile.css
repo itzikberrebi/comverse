@@ -105,6 +105,13 @@ article {
 	display: inline-block; 
 }
 
+#bold {
+    font-weight: bolder;
+}
+
+.introduction>header>h2 {
+    font-weight: normal;
+}
 
 /******************************************************************/
 
