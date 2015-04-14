@@ -3,13 +3,14 @@ module.exports = function(grunt) {
   // Project configuration.
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
+    
     uglify: {
       options: {
         banner: '/*! <%= pkg.name %> <%= grunt.template.today("yyyy-mm-dd") %> */\n'
       },
       build: {
-        src: 'src/<%= pkg.name %>.js',
-        dest: 'build/<%= pkg.name %>.min.js'
+        src: 'comverse/<%= pkg.name %>.js',
+        dest: 'comverse/<%= pkg.name %>.min.js'
       }
     },
 
@@ -17,9 +18,26 @@ module.exports = function(grunt) {
       one_file: {
         options: {},
         files: [{
-          src: ['index.md'],
-          dest: 'outline.html'
+          src: ['index1.md'],
+          dest: 'outline1.html'
         }]
+      }
+    },
+    
+    watch: {
+      options:{livereload:true},
+      files: ['*.js','*.html'],
+      tasks: ['uglify']
+    },
+
+    express: {
+      all:{
+        options: {
+          port:9000,
+          hostname:'localhost',
+          bases:['.'],
+          livereload:true
+        }
       }
     }
 
@@ -28,8 +46,11 @@ module.exports = function(grunt) {
   // Load the plugin that provides the "uglify" task.
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-md2html');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-express');
 
   // Default task(s).
   grunt.registerTask('default', ['uglify']);
+  grunt.registerTask('server', ['express' ,'watch']);
 
 };

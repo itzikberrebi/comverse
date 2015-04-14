@@ -1,0 +1,259 @@
+/*************************************General****************************************/
+body {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+}
+
+h2,h1,h3,h4,h5 {
+	margin: 0px;
+}
+
+li {
+	list-style-type: none;
+}
+
+ul {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	-webkit-padding-start: 0px;
+
+}
+/************************************nav*****************************************/
+
+.navigationbar {
+	text-align: right;
+}
+.navigationbar li {
+	display: inline-block;
+}
+
+/**************************************manu****************************************/
+
+.manu {
+	padding: 10px;
+
+}
+
+.manu>a {
+
+}
+
+.manu>header>ul>li{
+	display: inline-block; 
+}
+
+/**********************************introducrion********************************************/
+.introduction {
+	background-image: url("../img/slide-bg-complexity.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	padding: 30px;
+}
+
+#learn-more {	
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	padding:16px 31px;
+	text-shadow:0px 1px 0px #2f6627;
+}
+
+.introduction>header {
+}
+
+.introduction-articles {
+	padding: 10px;
+}
+
+.introduction-articles>article{
+	padding: 20px;
+	width: 200px;
+}
+
+#first-article {
+	background-color: rgb(251,66,158);
+	opacity: 0.8;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+}
+
+#second-article {
+	background-color: rgb(104,193,57);
+	opacity: 0.8;
+	-moz-border-radius:18px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+}
+
+#third-article {
+	background-color: rgb(255,117,24);
+	opacity: 0.8;
+	-moz-border-radius:28px;
+	-webkit-border-radius:18px;
+	border-radius:18px;
+}
+
+article {
+	display: inline-block; 
+}
+
+
+/******************************************************************/
+
+
+.comversesulution {
+	background-color: rgb(65,159,196);
+	color: white;
+	padding: 30px;
+}
+
+.figure {
+	display: inline-block; 
+	padding: 20px;
+	width: 100px;
+	kit-margin-end: 0px;
+}
+
+figure {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+
+}
+
+.comversesulution>div>button {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	color:#ffffff;
+	padding:16px 31px;
+	text-shadow:0px 1px 0px #2f6627;
+
+}
+
+/******************************************************************/
+
+.newsandfeeds {
+	background-image: url("../img/news-and-events.jpg");
+	background-attachment: fixed;
+	color: white;
+	padding: 30px;
+}
+
+.newsandfeeds > article {
+	display: inline-block; 
+	padding: 20px;
+	width: 250px;
+}
+
+.newsbox{
+	background-color: rgb(191,174,163);
+	opacity: 0.9;
+	color: black;
+	padding: 15px;
+	margin-top: 10px;
+	opacity: 0.7;
+	-moz-border-radius:28px;
+	-webkit-border-radius:18px;
+	border-radius:8px;
+
+}
+
+.newsbox:hover{
+	opacity: 1;
+}
+
+.datebox{
+	background-color: rgb(51,153,204);
+	float: left;
+	color: white;
+	opacity: 1;
+	width: 75px;
+	height: 75px;
+	margin-left: 10px;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius: 8px;
+
+}
+
+.datebox>h2, .datebox>h3{
+	margin: 0px;
+}
+
+
+/******************************************************************/
+
+#first-article:hover , #second-article:hover , #third-article:hover {
+	opacity: 1;
+}
+
+
+.successstories {
+	background-color: rgb(236,236,236);
+	padding: 30px;
+}
+
+.successstories > header {
+	padding: 10px;
+}
+
+#success1,#success2,#success3{
+	vertical-align: top;
+	background-color: white;
+	width: 300px;
+	height: 184px;
+	padding: 10px;
+	display: inline-block;
+	transition: height 2s;
+	-moz-border-radius:8px;
+	-webkit-border-radius:8px;
+	border-radius: 8px;
+	margin-left: 20px;
+
+}
+
+#success1:hover,#success2:hover,#success3:hover {
+
+	height: 0px;
+}
+
+.successstories>div>img {
+	float: left;
+	margin-left: 10px;
+}
+/******************************************************************/
+
+footer>ul>li{
+	display: inline-block;
+	padding: 10px;
+	padding-left: 30px;
+	vertical-align: top;
+	text-align: left;
+
+}
+
+footer>ul {
+	margin: 1px;
+}
+
+footer {
+	background-color: rgb(40,40,40);
+	color: white;
+}
+
+
+
+/******************************************************************/
