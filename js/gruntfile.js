@@ -26,7 +26,7 @@ module.exports = function(grunt) {
     
     watch: {
       options:{livereload:true},
-      files: ['*.js','*.html'],
+      files: ['*.js','*.html','*.css'],
       tasks: ['uglify']
     },
 

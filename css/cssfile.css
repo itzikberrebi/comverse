@@ -129,6 +129,10 @@ article {
 	kit-margin-end: 0px;
 }
 
+.figure>a>img:hover {
+	content: url('../img/solution_icon2.png');
+}
+
 figure {
 	-webkit-margin-before: 0em;
 	-webkit-margin-after: 0em;
