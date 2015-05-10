@@ -291,11 +291,19 @@ article {
 @media screen and (max-width: 900px){
 
 #first-article,#second-article,#third-article,.introduction-articles,
-.introduction,.introduction>header>h2,.introduction>header>h3,#learn-more{
+.introduction,.introduction>header>h2,.introduction>header>h3{
 			width: 100%;
 	margin-left: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+#learn-more {
+		margin-left: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+
+
 }
 
 .introduction ul {
