@@ -20,66 +20,86 @@
 
 <body>
 
- <section class="navigationbar">
-    <nav>
-        <ul>
-            <li>EN</li>
-            <li> | </li>
-            <li>customer login</li>
-        </ul>
-    </nav>
+    <header class="comverse_header">
+       <section class="navigationbar">
+        <nav>
+            <ul>
+                <li>EN</li>
+                <li> | </li>
+                <li>customer login</li>
+            </ul>
+        </nav>
+    </section> 
+
+    <section class="manu">
+        <img id="comverse_img" alt="comverse" src="img/comverse-logo.png">
+<a href="#" onclick="toggle_visibility('mobile_nav');">       
+     <img id="manu_mobile_img" alt="comverse" src="img/manu_mobile.png">
+</a>
+
+<a href="#" onclick="toggle_visibility('mobile_searchbar');">       
+        <img id="search_mobile_img" alt="comverse" src="img/search_mobile.png">
+</a>
+        <nav id="primary_nav_wrap">
+            <ul>
+                <li class="current-menu-item"> <a href="#"> your needs </a>
+                    <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
+                      <li><a href="#">Sub Menu 4</a></li>
+                      <li><a href="#">Sub Menu 5</a></li>
+                  </ul>
+              </li>
+
+              <li> | </li>
+              <li> <a href="#"> our portfulio</a>
+                  <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
+                      <li><a href="#">Sub Menu 4</a></li>
+                      <li><a href="#">Sub Menu 5</a></li>
+                  </ul>
+              </li>
+              <li> | </li>
+              <li> <a href="#">news and media</a>
+                  <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
+                      <li><a href="#">Sub Menu 4</a></li>
+                      <li><a href="#">Sub Menu 5</a></li>
+                  </ul>
+              </li>
+              <li> | </li>
+              <li> <a href="#">about comverse</a>
+                  <ul>
+                      <li><a href="#">Sub Menu 1</a></li>
+                      <li><a href="#">Sub Menu 2</a></li>
+                      <li><a href="#">Sub Menu 3</a></li>
+                      <li><a href="#">Sub Menu 4</a></li>
+                      <li><a href="#">Sub Menu 5</a></li>
+                  </ul>
+              </li>
+          </ul>
+      </nav>
+
+
+      <ol id="mobile_nav">
+        <li><a href="">your needs</a></li>
+        <li><a href="">our portfulio</a></li>
+        <li><a href="">news and media</a></li>
+        <li><a href="">about comverse</a></li>
+    </ol>  
+
+<form id="mobile_searchbar" method="GET">
+     <input type="text" name="searchbar" placeholder="Search"/>                    
+    </form>
+
 </section>
+</header>
 
-<section class="manu">
-    <a href="http://www.comverse.com/">
-        <img alt="comverse" src="img/comverse-logo.png">
-    </a>
-    <nav id="primary_nav_wrap">
-        <ul>
-            <li class="current-menu-item"> <a href="#"> your needs </a>
-                <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                  <li><a href="#">Sub Menu 4</a></li>
-                  <li><a href="#">Sub Menu 5</a></li>
-              </ul>
-          </li>
-
-          <li> | </li>
-          <li> <a href="#"> our portfulio</a>
-              <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                  <li><a href="#">Sub Menu 4</a></li>
-                  <li><a href="#">Sub Menu 5</a></li>
-              </ul>
-          </li>
-          <li> | </li>
-          <li> <a href="#">news and media</a>
-              <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                  <li><a href="#">Sub Menu 4</a></li>
-                  <li><a href="#">Sub Menu 5</a></li>
-              </ul>
-          </li>
-          <li> | </li>
-          <li> <a href="#">about comverse</a>
-              <ul>
-                  <li><a href="#">Sub Menu 1</a></li>
-                  <li><a href="#">Sub Menu 2</a></li>
-                  <li><a href="#">Sub Menu 3</a></li>
-                  <li><a href="#">Sub Menu 4</a></li>
-                  <li><a href="#">Sub Menu 5</a></li>
-              </ul>
-          </li>
-      </ul>
-  </nav>
-
-</section>
 
 <section  class = "introduction">
     <header>
@@ -92,10 +112,10 @@
 
         <ul class = "slideshow">
             <li class="slideshow_first"> 1 </li>
-          <li> 2 </li>
-          <li> 3 </li>
-          <li> 4 </li>
-      </ul>
+            <li> 2 </li>
+            <li> 3 </li>
+            <li> 4 </li>
+        </ul>
 
 
 
@@ -241,12 +261,12 @@
             </div>
 
             <div id = "success2wrapping">   
-             <div id = "company_pictures">
+               <div id = "company_pictures">
                 <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
                 <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
                 <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
             </div>
-                <br>
+            <br>
 
             <div id="success2">
 
@@ -258,12 +278,12 @@
         <div id = "success3wrapping">   
 
             <div id="success3">
-             <img src="img/person2.jpg">
-             <p>&quot;we have very good and very warm relations with Comverse. we always achievet...&quot;</p>
-         </div>
-                         <br>
+               <img src="img/person2.jpg">
+               <p>&quot;we have very good and very warm relations with Comverse. we always achievet...&quot;</p>
+           </div>
+           <br>
 
-         <div id = "company_pictures">
+           <div id = "company_pictures">
             <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
             <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
             <a id="mtc" href=""><img src="img/3mob.jpg" alt="mtc"></a> 
@@ -330,6 +350,26 @@
             <a id="linkdin-icon" href=""><img src="img/socialMenuIcon-linkdin.png" alt="linkdin"></a>
         </aside>
     </div>
+
+          <ol id="mobile_footer">
+        <li><a href="">KEY SOlUTIONS</a></li>
+        <li><a href="">PRODUCTS AND SERVICES</a></li>
+        <li><a href="">COMPANY</a></li>
+    </ol>  
+
 </footer>
+
+
+
+
 </body>
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
 </html>
