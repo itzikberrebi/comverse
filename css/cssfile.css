@@ -288,6 +288,10 @@ article {
 	font-weight: normal;
 }
 
+.mobile_arrow {
+	display: none;
+}
+
 @media screen and (max-width: 900px){
 
 #first-article,#second-article,#third-article,.introduction-articles,
@@ -296,6 +300,11 @@ article {
 	margin-left: 0px;
 	padding-left: 0px;
 	padding-right: 0px;
+}
+
+.mobile_arrow {
+	display: block;
+	float: right;
 }
 
 #learn-more {
@@ -454,10 +463,8 @@ article h2 {
 	padding: 10px;
 }
 
-#successwrapping {
-}
 
-#success1wrapping, #success2wrapping, #success3wrapping {
+#success1wrapping, #success2wrapping {
 	display: inline-block;
 	width: 350px;
 	vertical-align: top;
@@ -519,7 +526,7 @@ article h2 {
 
 @media screen and (max-width: 1136px){
 #success3wrapping{
-	margin-top: 10px;
+display: none;
 }
 }
 
